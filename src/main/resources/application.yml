@@ -1,0 +1,18 @@
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  datasource:
+    password: sa
+    username: sa
+    url: jdbc:h2:mem:remember
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    generate-ddl: false
+    show-sql: false
+my:
+  token:
+    issuer: KWY
+    type: Token
